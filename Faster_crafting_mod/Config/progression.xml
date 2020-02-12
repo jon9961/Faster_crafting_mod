@@ -1,0 +1,55 @@
+<configs>
+
+	<append xpath="/progression/perks">
+	
+		<perk name="CraftSpeed" parent="skillScavenging" name_key="Crafting Speed" desc_key="Tired of some of the LONG crafting timers ? Look no further just specialize your self into this perk to speed things along." icon="ui_game_symbol_skills">
+
+	<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude"  operation="GTE" value="2" desc_key="Fortitude Level 2"/>
+								  <requirement name="ProgressionLevel" progression_name="attStrength"   operation="GTE" value="2" desc_key="Strength Level 2"/>
+								  <requirement name="ProgressionLevel" progression_name="attAgility"    operation="GTE" value="2" desc_key="Agility Level 2"/>
+								  <requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="2" desc_key="Perception Level 2"/>
+								  <requirement name="ProgressionLevel" progression_name="attIntellect"  operation="GTE" value="2" desc_key="reqIntellectLevel02"/></level_requirements>
+
+	<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude"  operation="GTE" value="4" desc_key="Fortitude Level 4"/>
+								  <requirement name="ProgressionLevel" progression_name="attStrength"   operation="GTE" value="4" desc_key="Strength Level 4"/>
+								  <requirement name="ProgressionLevel" progression_name="attAgility"    operation="GTE" value="4" desc_key="Agility Level 4"/>
+								  <requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="4" desc_key="Perception Level 4"/>
+								  <requirement name="ProgressionLevel" progression_name="attIntellect"  operation="GTE" value="4" desc_key="reqIntellectLevel04"/></level_requirements>
+
+	<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude"  operation="GTE" value="6" desc_key="Fortitude Level 6"/>
+								  <requirement name="ProgressionLevel" progression_name="attStrength"   operation="GTE" value="6" desc_key="Strength Level 6"/>
+								  <requirement name="ProgressionLevel" progression_name="attAgility"    operation="GTE" value="6" desc_key="Agility Level 6"/>
+								  <requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="6" desc_key="Perception Level 6"/>
+								  <requirement name="ProgressionLevel" progression_name="attIntellect"  operation="GTE" value="6" desc_key="reqIntellectLevel06"/></level_requirements>
+
+	<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude"  operation="GTE" value="8" desc_key="Fortitude Level 8"/>
+								  <requirement name="ProgressionLevel" progression_name="attStrength"   operation="GTE" value="8" desc_key="Strength Level 8"/>
+								  <requirement name="ProgressionLevel" progression_name="attAgility"    operation="GTE" value="8" desc_key="Agility Level 8"/>
+								  <requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="8" desc_key="Perception Level 8"/>
+								  <requirement name="ProgressionLevel" progression_name="attIntellect"  operation="GTE" value="8" desc_key="reqIntellectLevel08"/></level_requirements>
+
+	<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude"  operation="GTE" value="10" desc_key="reqFortitudeLevel10"/>
+								  <requirement name="ProgressionLevel" progression_name="attStrength"   operation="GTE" value="10" desc_key="reqStrengthLevel10"/>
+								  <requirement name="ProgressionLevel" progression_name="attAgility"    operation="GTE" value="10" desc_key="reqAgilityLevel10"/>
+								  <requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/>
+								  <requirement name="ProgressionLevel" progression_name="attIntellect"  operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>	
+
+	<effect_group>
+
+		<passive_effect name="CraftingTime" operation="perc_subtract" level="1" value=".1"/>
+		<passive_effect name="CraftingTime" operation="perc_subtract" level="2" value=".2"/>
+		<passive_effect name="CraftingTime" operation="perc_subtract" level="3" value=".3"/>
+		<passive_effect name="CraftingTime" operation="perc_subtract" level="4" value=".4"/>
+		<passive_effect name="CraftingTime" operation="perc_subtract" level="5" value=".5"/>
+			
+		<effect_description level="1" desc_base="Crafting is 10% faster." long_desc_key="Increases your crafting speed by 10%."/>
+		<effect_description level="2" desc_base="Crafting is 20% faster." long_desc_key="Increases your crafting speed by 20%."/>
+		<effect_description level="3" desc_base="Crafting is 30% faster." long_desc_key="Increases your crafting speed by 30%."/>
+		<effect_description level="4" desc_base="Crafting is 40% faster." long_desc_key="Increases your crafting speed by 40%."/>
+		<effect_description level="5" desc_base="Crafting is 50% faster." long_desc_key="Increases your crafting speed by 50%."/>
+
+	</effect_group>
+</perk>
+</append>
+	
+</configs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="FasterCraftingMod" />
+		<Description value="this mod adds a perk to increase your crafting speed up to 50%." />
+		<Author value="Lam" />
+		<Version value="18.0" />
+	</ModInfo>
+</xml>
